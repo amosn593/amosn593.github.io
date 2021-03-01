@@ -1,0 +1,102 @@
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            html,
+            body {
+                height: 100%;
+                overflow-x: hidden;
+            }
+            /* main div */
+            
+            .main {
+                min-height: 100%;
+                position: relative;
+                margin: 0;
+                padding: 0;
+            }
+            /* Nav bar */
+            
+            .top-nav {
+                background-color: #F4F3F4;
+                padding: 16px;
+                align-items: center;
+                border-bottom: 1px solid #b1afb1;
+                position: sticky;
+                top: 0;
+                z-index: 1;
+                font-family: 'Playfair Display', serif;
+            }
+            
+            h6 {
+                text-align: center;
+                color: #777777;
+                font-weight: bold;
+            }
+            /* Description */
+            
+            .title {
+                text-decoration: underline;
+                color: #777777;
+                font-family: 'Playfair Display', serif;
+                font-weight: bold;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            .desc {
+                font-family: 'Zilla Slab', serif;
+                font-size: 17px;
+            }
+            /* Services */
+            
+            .services {
+                background-color: #F0F0D0;
+            }
+            /* Social Media */
+            
+            .social-media {
+                margin: 40px;
+                padding: 20px;
+            }
+            
+            .social {
+                margin: 30px;
+                padding: 20px;
+                height: 50px;
+            }
+            /* footer */
+            
+            .footer {
+                text-align: center;
+                background-color: #858383;
+                padding-bottom: 30px;
+                padding-top: 20px;
+                align-items: center;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            
+            .link {
+                color: #777777;
+                text-decoration: none;
+            }
+            
+            .link:hover {
+                color: rgb(138, 134, 134);
+            }
+            
+            .link-footer {
+                color: #fff;
+            }
+            
+            .link-footer:hover {
+                color: #fff;
+            }
